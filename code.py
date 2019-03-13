@@ -491,9 +491,11 @@ CS_TFIDF_Rocchio_scores=pickle.load(open('results\CS_TFIDF_Rocchio_scores.pkl','
 CS_GLOVE_Rocchio_scores=pickle.load(open("results\CS_GLOVE_Rocchio_scores.pkl",'rb'))
 CS_TFIDF_RM1_scores=pickle.load(open('results\CS_TFIDF_RM1_scores.pkl','rb'))
 CS_GLOVE_RM1_scores=pickle.load(open("results\CS_GLOVE_RM1_scores.pkl",'rb'))
+CS_TFIDF_ent_RM1_scores=pickle.load(open('results\CS_TFIDF_ent-RM1_scores.pkl','rb'))
+CS_GLOVE_ent_RM1_scores=pickle.load(open("results\CS_GLOVE_ent-RM1_scores.pkl",'rb'))
 
-X_train=np.zeros((len(train),6),dtype=np.float)
-X_test=np.zeros((len(test),6),dtype=np.float)
+X_train=np.zeros((len(train),8),dtype=np.float)
+X_test=np.zeros((len(test),8),dtype=np.float)
 train.sort_values(by=["query",'docid'], inplace=True)
 test.sort_values(by=["query",'docid'], inplace=True)
 y_train=train['rel']
@@ -507,10 +509,12 @@ for qid, docid in zip(train['query'],train['docid']):
     index=flat_query[combine.index(qid)]
     X_train[no,0]=CS_TFIDF_scores.get(index).get(docid)
     X_train[no,1]=CS_GLOVE_scores.get(index).get(docid)
-    X_train[no,2]=CS_TFIDF_scores.get(index).get(docid)
-    X_train[no,3]=CS_TFIDF_scores.get(index).get(docid)
+    X_train[no,2]=CS_TFIDF_Rocchio_scores.get(index).get(docid)
+    X_train[no,3]=CS_GLOVE_Rocchio_scores.get(index).get(docid)
     X_train[no,4]=CS_TFIDF_RM1_scores.get(index).get(docid)
     X_train[no,5]=CS_GLOVE_RM1_scores.get(index).get(docid)
+    X_train[no,6]=CS_GLOVE_ent_RM1_scores.get(index).get(docid)
+    X_train[no,7]=CS_GLOVE_ent_RM1_scores.get(index).get(docid)
     
     no+=1
     
@@ -519,10 +523,12 @@ for qid, docid in zip(test['query'],test['docid']):
     index=flat_query[combine.index(qid)]
     X_test[no,0]=CS_TFIDF_scores.get(index).get(docid)
     X_test[no,1]=CS_GLOVE_scores.get(index).get(docid)
-    X_test[no,2]=CS_TFIDF_scores.get(index).get(docid)
-    X_test[no,3]=CS_TFIDF_scores.get(index).get(docid)
+    X_test[no,2]=CS_TFIDF_Rocchio_scores.get(index).get(docid)
+    X_test[no,3]=CS_GLOVE_Rocchio_scores.get(index).get(docid)
     X_test[no,4]=CS_TFIDF_RM1_scores.get(index).get(docid)
     X_test[no,5]=CS_GLOVE_RM1_scores.get(index).get(docid)
+    X_test[no,6]=CS_GLOVE_ent_RM1_scores.get(index).get(docid)
+    X_test[no,7]=CS_GLOVE_ent_RM1_scores.get(index).get(docid)
     
     no+=1
  
