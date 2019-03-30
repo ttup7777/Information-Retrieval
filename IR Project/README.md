@@ -1,8 +1,5 @@
-# Information-Retrieval
-
-This Github project is built up by students in Technology University of Delft, including Hong Lin, Kang Lang, and Tian Tian, for master course Information Retrieval (IN4325) in May, 2019. The dataset and python code here are utilized by us for reproducing the paper of Nanni et al. [1] in Core IR project.
-
 ## Core IR project
+The dataset and python code here are utilized by us for reproducing the paper of Nanni et al. [1] in Core IR project.
 
 ### Introduction of The Project
 Answering complex questions is a challenging task which requires retrieval approaches to show multiple relevance facets of a complex question from many different Internet pages. To solve this problem, one of idea in information retrieval is to organize the comprehensive answers for a complex question into a single page, like Wikipedia articles. The new TREC Complex Answer Retrieval (TREC CAR) track provides several comprehensive dataset that target at retrieving paragraphs to populate such articles about complex topics. Inspired by Nanni et al. [1], we reproduce part of their work and rely on a small-size dataset Test200 in TREC CAR to evaluate a variety of retrieval approaches that can be applied in this task, from standard ones (e.g., BM25, vector model with different embeddings) to complex ones that using learning to rank or query expansion with knowledge bases. The goal of our project is to provide an overview of some promising methods in tackling this problem to future participants of this track.
