@@ -1,4 +1,4 @@
-## Core IR project
+# Core IR project
 The dataset and python code here are utilized by us for reproducing the paper of Nanni et al. [1] in Core IR project.
 
 ### Introduction of The Project
