@@ -16,8 +16,8 @@ from nltk.util import ngrams
 #output = list(ngrams(tokens, 5))
 
 # Read Data
-train_A=pd.read_table("..//data//Training data for Task A.txt",encoding='gbk')
-test_A=pd.read_table("..//data//semeval2016-task6-testdata-gold//SemEval2016-Task6-subtaskA-testdata-gold.txt",encoding='gbk')
+train_A=pd.read_table("data//Training data for Task A.txt",encoding='gbk')
+test_A=pd.read_table("data//semeval2016-task6-testdata-gold//SemEval2016-Task6-subtaskA-testdata-gold.txt",encoding='gbk')
 
 # Preprocessing
 from nltk.corpus import stopwords
