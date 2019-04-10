@@ -1,0 +1,25 @@
+Two stage and Combine:
+[[ 76 154]
+ [102 917]]
+              precision    recall  f1-score   support
+
+           0       0.43      0.33      0.37       230
+           1       0.86      0.90      0.88      1019
+
+   micro avg       0.80      0.80      0.80      1249
+   macro avg       0.64      0.62      0.63      1249
+weighted avg       0.78      0.80      0.78      1249
+
+[[ 76 133  21]
+ [ 66 550  99]
+ [ 36 139 129]]
+              precision    recall  f1-score   support
+
+           0       0.43      0.33      0.37       230
+           1       0.67      0.77      0.72       715
+           2       0.52      0.42      0.47       304
+
+   micro avg       0.60      0.60      0.60      1249
+   macro avg       0.54      0.51      0.52      1249
+weighted avg       0.59      0.60      0.59      1249
+
