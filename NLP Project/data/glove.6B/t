@@ -1,2 +1,2 @@
-# The Glove 300 dimensional pre-trained word embeddings can be download from https://nlp.stanford.edu/data/glove.6B.zip
-# These word embeddings are trained on Wikipedia 2014 + Gigaword 5 (6B tokens, 400K vocab, uncased)
+- The Glove 300 dimensional pre-trained word embeddings can be download from https://nlp.stanford.edu/data/glove.6B.zip
+- These word embeddings are trained on Wikipedia 2014 + Gigaword 5 (6B tokens, 400K vocab, uncased)
