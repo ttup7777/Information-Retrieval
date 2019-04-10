@@ -1,0 +1,14 @@
+One stage and Combine:
+[[131  66  33]
+ [122 458 135]
+ [ 55  88 161]]
+              precision    recall  f1-score   support
+
+           0       0.43      0.57      0.49       230
+           1       0.75      0.64      0.69       715
+           2       0.49      0.53      0.51       304
+
+   micro avg       0.60      0.60      0.60      1249
+   macro avg       0.55      0.58      0.56      1249
+weighted avg       0.63      0.60      0.61      1249
+

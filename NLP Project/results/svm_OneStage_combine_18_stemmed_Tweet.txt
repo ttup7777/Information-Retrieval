@@ -1,0 +1,18 @@
+One stage and Combine:
+SVM best score:
+0.48284145504461223
+SVM best parameters:
+{'C': 1, 'gamma': 0.5, 'kernel': 'rbf'}
+[[ 24 204   2]
+ [ 15 699   1]
+ [  5 286  13]]
+              precision    recall  f1-score   support
+
+           0       0.55      0.10      0.18       230
+           1       0.59      0.98      0.73       715
+           2       0.81      0.04      0.08       304
+
+   micro avg       0.59      0.59      0.59      1249
+   macro avg       0.65      0.37      0.33      1249
+weighted avg       0.63      0.59      0.47      1249
+
