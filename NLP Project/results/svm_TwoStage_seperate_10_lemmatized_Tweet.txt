@@ -1,0 +1,180 @@
+Two stage and Seperate:
+Atheism
+SVM1 best score:
+0.7875243664717348
+SVM1 best parameters:
+{'C': 9, 'gamma': 10, 'kernel': 'rbf'}
+SVM2 best score:
+0.7929292929292929
+SVM2 best parameters:
+{'C': 3, 'gamma': 10, 'kernel': 'rbf'}
+[[  3  25]
+ [ 10 182]]
+              precision    recall  f1-score   support
+
+           0       0.23      0.11      0.15        28
+           1       0.88      0.95      0.91       192
+
+   micro avg       0.84      0.84      0.84       220
+   macro avg       0.55      0.53      0.53       220
+weighted avg       0.80      0.84      0.81       220
+
+[[  3  22   3]
+ [  7 147   6]
+ [  3  24   5]]
+              precision    recall  f1-score   support
+
+           0       0.23      0.11      0.15        28
+           1       0.76      0.92      0.83       160
+           2       0.36      0.16      0.22        32
+
+   micro avg       0.70      0.70      0.70       220
+   macro avg       0.45      0.39      0.40       220
+weighted avg       0.64      0.70      0.66       220
+
+Climate Change is a Real Concern
+SVM1 best score:
+0.7088607594936709
+SVM1 best parameters:
+{'C': 7, 'gamma': 10, 'kernel': 'rbf'}
+SVM2 best score:
+0.9383259911894273
+SVM2 best parameters:
+{'C': 5, 'gamma': 1, 'kernel': 'rbf'}
+[[13 22]
+ [35 99]]
+              precision    recall  f1-score   support
+
+           0       0.27      0.37      0.31        35
+           1       0.82      0.74      0.78       134
+
+   micro avg       0.66      0.66      0.66       169
+   macro avg       0.54      0.56      0.54       169
+weighted avg       0.70      0.66      0.68       169
+
+[[13  0 22]
+ [ 3  0  8]
+ [32  2 89]]
+              precision    recall  f1-score   support
+
+           0       0.27      0.37      0.31        35
+           1       0.00      0.00      0.00        11
+           2       0.75      0.72      0.74       123
+
+   micro avg       0.60      0.60      0.60       169
+   macro avg       0.34      0.37      0.35       169
+weighted avg       0.60      0.60      0.60       169
+
+Feminist Movement
+SVM1 best score:
+0.8132530120481928
+SVM1 best parameters:
+{'C': 3, 'gamma': 10, 'kernel': 'rbf'}
+SVM2 best score:
+0.6133828996282528
+SVM2 best parameters:
+{'C': 11, 'gamma': 'scale', 'kernel': 'rbf'}
+[[  0  44]
+ [  2 239]]
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        44
+           1       0.84      0.99      0.91       241
+
+   micro avg       0.84      0.84      0.84       285
+   macro avg       0.42      0.50      0.46       285
+weighted avg       0.71      0.84      0.77       285
+
+[[  0  44   0]
+ [  2 181   0]
+ [  0  56   2]]
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        44
+           1       0.64      0.99      0.78       183
+           2       1.00      0.03      0.07        58
+
+   micro avg       0.64      0.64      0.64       285
+   macro avg       0.55      0.34      0.28       285
+weighted avg       0.62      0.64      0.51       285
+
+Hillary Clinton
+SVM1 best score:
+0.7518142235123367
+SVM1 best parameters:
+{'C': 1, 'gamma': 10, 'kernel': 'rbf'}
+SVM2 best score:
+0.7749510763209393
+SVM2 best parameters:
+{'C': 3, 'gamma': 10, 'kernel': 'rbf'}
+[[  6  72]
+ [  1 216]]
+              precision    recall  f1-score   support
+
+           0       0.86      0.08      0.14        78
+           1       0.75      1.00      0.86       217
+
+   micro avg       0.75      0.75      0.75       295
+   macro avg       0.80      0.54      0.50       295
+weighted avg       0.78      0.75      0.67       295
+
+[[  6  71   1]
+ [  1 166   5]
+ [  0  44   1]]
+              precision    recall  f1-score   support
+
+           0       0.86      0.08      0.14        78
+           1       0.59      0.97      0.73       172
+           2       0.14      0.02      0.04        45
+
+   micro avg       0.59      0.59      0.59       295
+   macro avg       0.53      0.35      0.30       295
+weighted avg       0.59      0.59      0.47       295
+
+Legalization of Abortion
+SVM1 best score:
+0.7917304747320061
+SVM1 best parameters:
+{'C': 1, 'gamma': 10, 'kernel': 'rbf'}
+SVM2 best score:
+0.7668067226890757
+SVM2 best parameters:
+{'C': 7, 'gamma': 1, 'kernel': 'rbf'}
+[[ 26  19]
+ [ 50 185]]
+              precision    recall  f1-score   support
+
+           0       0.34      0.58      0.43        45
+           1       0.91      0.79      0.84       235
+
+   micro avg       0.75      0.75      0.75       280
+   macro avg       0.62      0.68      0.64       280
+weighted avg       0.82      0.75      0.78       280
+
+[[ 26  17   2]
+ [ 49 133   7]
+ [  1  34  11]]
+              precision    recall  f1-score   support
+
+           0       0.34      0.58      0.43        45
+           1       0.72      0.70      0.71       189
+           2       0.55      0.24      0.33        46
+
+   micro avg       0.61      0.61      0.61       280
+   macro avg       0.54      0.51      0.49       280
+weighted avg       0.63      0.61      0.61       280
+
+All:
+[[ 48 154  28]
+ [ 62 627  26]
+ [ 36 160 108]]
+              precision    recall  f1-score   support
+
+           0       0.33      0.21      0.26       230
+           1       0.67      0.88      0.76       715
+           2       0.67      0.36      0.46       304
+
+   micro avg       0.63      0.63      0.63      1249
+   macro avg       0.55      0.48      0.49      1249
+weighted avg       0.60      0.63      0.59      1249
+

@@ -1,0 +1,140 @@
+Two stage and Seperate:
+Atheism
+[[  0  28]
+ [  1 191]]
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        28
+           1       0.87      0.99      0.93       192
+
+   micro avg       0.87      0.87      0.87       220
+   macro avg       0.44      0.50      0.46       220
+weighted avg       0.76      0.87      0.81       220
+
+[[  0  28   0]
+ [  1 154   5]
+ [  0  28   4]]
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        28
+           1       0.73      0.96      0.83       160
+           2       0.44      0.12      0.20        32
+
+   micro avg       0.72      0.72      0.72       220
+   macro avg       0.39      0.36      0.34       220
+weighted avg       0.60      0.72      0.63       220
+
+Climate Change is a Real Concern
+[[25 10]
+ [61 73]]
+              precision    recall  f1-score   support
+
+           0       0.29      0.71      0.41        35
+           1       0.88      0.54      0.67       134
+
+   micro avg       0.58      0.58      0.58       169
+   macro avg       0.59      0.63      0.54       169
+weighted avg       0.76      0.58      0.62       169
+
+[[25  0 10]
+ [ 5  0  6]
+ [56  0 67]]
+              precision    recall  f1-score   support
+
+           0       0.29      0.71      0.41        35
+           1       0.00      0.00      0.00        11
+           2       0.81      0.54      0.65       123
+
+   micro avg       0.54      0.54      0.54       169
+   macro avg       0.37      0.42      0.35       169
+weighted avg       0.65      0.54      0.56       169
+
+Feminist Movement
+[[  3  41]
+ [  4 237]]
+              precision    recall  f1-score   support
+
+           0       0.43      0.07      0.12        44
+           1       0.85      0.98      0.91       241
+
+   micro avg       0.84      0.84      0.84       285
+   macro avg       0.64      0.53      0.52       285
+weighted avg       0.79      0.84      0.79       285
+
+[[  3  34   7]
+ [  3 130  50]
+ [  1  26  31]]
+              precision    recall  f1-score   support
+
+           0       0.43      0.07      0.12        44
+           1       0.68      0.71      0.70       183
+           2       0.35      0.53      0.42        58
+
+   micro avg       0.58      0.58      0.58       285
+   macro avg       0.49      0.44      0.41       285
+weighted avg       0.58      0.58      0.55       285
+
+Hillary Clinton
+[[ 12  66]
+ [ 15 202]]
+              precision    recall  f1-score   support
+
+           0       0.44      0.15      0.23        78
+           1       0.75      0.93      0.83       217
+
+   micro avg       0.73      0.73      0.73       295
+   macro avg       0.60      0.54      0.53       295
+weighted avg       0.67      0.73      0.67       295
+
+[[ 12  65   1]
+ [  8 156   8]
+ [  7  34   4]]
+              precision    recall  f1-score   support
+
+           0       0.44      0.15      0.23        78
+           1       0.61      0.91      0.73       172
+           2       0.31      0.09      0.14        45
+
+   micro avg       0.58      0.58      0.58       295
+   macro avg       0.45      0.38      0.37       295
+weighted avg       0.52      0.58      0.51       295
+
+Legalization of Abortion
+[[ 18  27]
+ [ 44 191]]
+              precision    recall  f1-score   support
+
+           0       0.29      0.40      0.34        45
+           1       0.88      0.81      0.84       235
+
+   micro avg       0.75      0.75      0.75       280
+   macro avg       0.58      0.61      0.59       280
+weighted avg       0.78      0.75      0.76       280
+
+[[ 18  25   2]
+ [ 39 132  18]
+ [  5  24  17]]
+              precision    recall  f1-score   support
+
+           0       0.29      0.40      0.34        45
+           1       0.73      0.70      0.71       189
+           2       0.46      0.37      0.41        46
+
+   micro avg       0.60      0.60      0.60       280
+   macro avg       0.49      0.49      0.49       280
+weighted avg       0.61      0.60      0.60       280
+
+All:
+[[ 58 152  20]
+ [ 56 572  87]
+ [ 69 112 123]]
+              precision    recall  f1-score   support
+
+           0       0.32      0.25      0.28       230
+           1       0.68      0.80      0.74       715
+           2       0.53      0.40      0.46       304
+
+   micro avg       0.60      0.60      0.60      1249
+   macro avg       0.51      0.49      0.49      1249
+weighted avg       0.58      0.60      0.59      1249
+
